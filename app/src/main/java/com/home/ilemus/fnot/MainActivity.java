@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 keyPresses++;
                 if (keyPresses > 0) {
-                    if (keyPresses > 5) {
+                    if (keyPresses > 4) {
                         isDeveloper = true;
                         Intent intent = new Intent(context, HomeActivity.class);
                         intent.putExtra(EXTRA_STRING, "Developer");
